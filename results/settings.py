@@ -25,7 +25,7 @@ SECRET_KEY = 'd7uwgirvd(f@31fp-gf-kr#2+!r!zb+**1@9x*n18$#y-r1j62'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['SemResults.onrender.com']
+ALLOWED_HOSTS = []
 
 
 # Application definition
