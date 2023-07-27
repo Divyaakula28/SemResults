@@ -134,6 +134,12 @@ import os
 
 STATIC_URL = '/static/'
 # settings.py
+"""
 STATICFILE_DIRS=[
-    os.path.join(BASE_DIR,'results/twotwo/ static')
+    os.path.join(BASE_DIR,'twotwo/ static')
+]
+"""
+STATICFILES_DIRS = [
+    BASE_DIR / "twotwo/ static",
+    '/var/www/twotwo/static/',
 ]
