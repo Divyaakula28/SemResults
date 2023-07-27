@@ -140,6 +140,6 @@ STATICFILE_DIRS=[
 ]
 """
 STATICFILES_DIRS = [
-    BASE_DIR / "twotwo/ static",
-    '/var/www/twotwo/static/',
+    BASE_DIR / "static",
+    '/var/www/static/',
 ]
